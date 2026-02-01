@@ -21,6 +21,9 @@ const fs = require('fs');
 const path = require('path');
 const { URL } = require('url');
 
+// Default timeout in milliseconds
+const DEFAULT_TIMEOUT = 10000; // 10 seconds
+
 // Color codes for terminal output
 const COLORS = {
   reset: '\x1b[0m',
